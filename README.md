@@ -4,9 +4,9 @@ This repo contains the implementation code of the paper : Shape estimation of Vi
 We present a novel approach based on knowledge destillation to analyse the shape of weld pool, through RGB images.
 
 The overall framework is illustrated as follows:
-![image info](resources\framework.png)
-
-![image info](resources\kd.png)
+![image info](resources/framework.png)
+During the knowledge distillation phase (training phase), the weights of the segmentation model ar frozen, and the teacher wrapper that consists of the segmentaiton model and the heatmap generation algorithm are used (blocks B and C).
+![image info](resources/kd.png)
 # ROBIO — VAE Knowledge Distillation
 
 **Project**: training and evaluating VAE-based student models using a pre-trained teacher (DeepLabV3 / YOLO) with k-fold cross-validation and automatic heatmap generation.

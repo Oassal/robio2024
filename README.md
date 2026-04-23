@@ -67,7 +67,7 @@ python eval.py \
 - Run a short test (1 epoch, small batch) to verify logging before starting full experiments.
 - Keep checkpoints and logs outside OneDrive to avoid sync issues.
 
-**Citation**
+# Citation
 If you use this work, please cite:
 ```
 @article{assal2024leveraging,
